@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+  <header>
+    <h2 class="logo">My Store</h2>
+    <input type="text" id="searchBar" placeholder="Search products...">
+    <button id="cartBtn">🛒 Cart (<span id="cartCount">0</span>)</button>
+<div id="cartModal" class="cart-modal" style="display:none;">
+  <h2>Your Cart</h2>
+  <div class="cart-items"></div>
+  <button onclick="closeCart()">Close</button>
+</div>
+  </header>
+  <h1>Our Products</h1>
+  <div class="products"></div>
+  <script src="script.js"></script>
+</body>
+</html>
